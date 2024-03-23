@@ -37,8 +37,8 @@ export async function getScore(askingAddress: string) {
     )
     try {
         const score = await decoderContract.getScore(askingAddress)
-        return score
+        return Number(score)
     } catch {
-        return 0
+        return 4.04
     }
 }

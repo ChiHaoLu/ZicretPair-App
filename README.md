@@ -2,7 +2,7 @@
 
 > Unlock a new dimension of privacy and decentralized connection with ZicretPair, the avaunt-grade social matching platform.
 
-💖💖💖 See all information about ZicretPair in [Github wiki](https://github.com/ChiHaoLu/ZicretPair-App/wiki)! 💖💖💖 
+💖💖💖 See all information about ZicretPair in [Github wiki](https://github.com/ChiHaoLu/ZicretPair-App/wiki)! 💖💖💖
 
 ## Getting Started
 
