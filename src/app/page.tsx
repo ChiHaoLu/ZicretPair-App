@@ -91,7 +91,16 @@ export default function Passport() {
                     {connected && network == "48899" && (
                         <p>✅ Network: Zircuit Testnet</p>
                     )}
-                    {connected && network != "48899" && (
+                    {connected && network == "534351" && (
+                        <p>✅ Network: Scroll Sepolia</p>
+                    )}
+                    {connected && network == "59140" && (
+                        <p>✅ Network: Linea Goerli</p>
+                    )}
+                    {connected && network == "18" && (
+                        <p>✅ Network: Thunder Testnet</p>
+                    )}
+                    {connected && (network != "48899" && network != "534351" && network != "59140" && network != "18") && (
                         <p>
                             ❌ Please switch to{" "}
                             <Link
@@ -99,8 +108,25 @@ export default function Passport() {
                                 color="pink.400"
                                 isExternal>
                                 <b>Ziruit Testnet</b>{" "}
+                            </Link>or{" "}
+                            <Link
+                                href="https://docs.scroll.io/en/user-guide/faucet/"
+                                color="pink.400"
+                                isExternal>
+                                <b>Scroll Sepolia</b>{" "}
+                            </Link>or{" "}
+                            <Link
+                                href="https://docs.linea.build/use-mainnet/set-up-your-wallet"
+                                color="pink.400"
+                                isExternal>
+                                <b>Linea Goerli</b>{" "}
+                            </Link>or{" "}
+                            <Link
+                                href="https://docs.developers.thundercore.com/product-protocol/wallets"
+                                color="pink.400"
+                                isExternal>
+                                <b>Thunder Testnet</b>.
                             </Link>
-                            network
                         </p>
                     )}
                 </div>

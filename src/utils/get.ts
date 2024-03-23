@@ -15,7 +15,11 @@ export async function calculatePSI(
         ZicretPairMeta.abi,
         await provider.getSigner()
     )
-    return await zicretPair.calculatePSI(caller, callee, weight)
+    try {
+        return await zicretPair.calculatePSI(caller, callee, weight)
+    } catch {
+        return 0
+    }
 }
 
 /** get poassport score from decoder contract */
@@ -35,7 +39,6 @@ export async function getScore(askingAddress: string) {
         const score = await decoderContract.getScore(askingAddress)
         return score
     } catch {
-        // throw new Error("no passport info available")
-        return 19.67
+        return 0
     }
 }

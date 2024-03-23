@@ -13,9 +13,9 @@ export const Welcome = () => {
             </p>
             <br />
             <p>
-                I know you want to encourage the ZicretPair team! You can find
+                I know you want to encourage the ZicretPair team! Or just want to know more about the introduction and system design. You can find
                 ALL information{" "}
-                <Link href="https://" color="pink.400" isExternal>
+                <Link href="https://hackmd.io/@ChiHaoLu/ZicretPair" color="pink.400" isExternal>
                     <b>HERE</b>
                 </Link>
                 !
@@ -35,11 +35,18 @@ export const Welcome = () => {
                 </li>
                 <li>Connect your wallet by clicking "Connect"</li>
                 <li>
-                    Allow the app to query your Passport by clicking "Query
-                    Passport"
+                    Then go down the step with next pages to find your Mr & Mrs Right!
                 </li>
             </ol>
             <br />
+            <br />
+            <p>
+                ZicretPair is made by Alfred Lu{" "}
+                <Link href="https://chihaolu.me" color="pink.400" isExternal>
+                    (chihaolu.me)
+                </Link>
+                !
+            </p>
         </>
     )
 }

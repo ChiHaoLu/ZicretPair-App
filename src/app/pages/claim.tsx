@@ -16,8 +16,7 @@ export const Claim = () => {
 
     async function isProven() {
         // TODO: grab the all SharingInfo Events to check the matching info is correct or not
-
-        return true
+        return false
     }
 
     async function getNFT() {

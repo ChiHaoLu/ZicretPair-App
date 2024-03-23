@@ -1,18 +1,6 @@
 import { ZicretPair } from "@/typechain-types"
 import { ethers } from "ethers"
-import type {
-    BaseContract,
-    BigNumberish,
-    BytesLike,
-    FunctionFragment,
-    Result,
-    Interface,
-    EventFragment,
-    AddressLike,
-    ContractRunner,
-    ContractMethod,
-    Listener
-} from "ethers"
+import type { BigNumberish, BytesLike } from "ethers"
 import { LocalProfile } from "../utils/types"
 
 function compareBytes32(a: BytesLike, b: BytesLike): number {
