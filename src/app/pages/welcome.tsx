@@ -13,10 +13,14 @@ export const Welcome = () => {
             </p>
             <br />
             <p>
-                I know you want to encourage the ZicretPair team! Or just want to know more about the introduction and system design. You can find
-                ALL information{" "}
-                <Link href="https://hackmd.io/@ChiHaoLu/ZicretPair" color="pink.400" isExternal>
-                    <b>HERE</b>
+                I know you want to encourage the ZicretPair team! Or just want
+                to know more about the introduction and system design. You can
+                find ALL information{" "}
+                <Link
+                    href="https://github.com/ChiHaoLu/ZicretPair-App/wiki"
+                    color="pink.400"
+                    isExternal>
+                    <b>GITHUB WIKI</b>
                 </Link>
                 !
             </p>
@@ -35,7 +39,8 @@ export const Welcome = () => {
                 </li>
                 <li>Connect your wallet by clicking "Connect"</li>
                 <li>
-                    Then go down the step with next pages to find your Mr & Mrs Right!
+                    Then go down the step with next pages to find your Mr & Mrs
+                    Right!
                 </li>
             </ol>
             <br />

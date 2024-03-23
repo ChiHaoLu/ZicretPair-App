@@ -100,35 +100,42 @@ export default function Passport() {
                     {connected && network == "18" && (
                         <p>✅ Network: Thunder Testnet</p>
                     )}
-                    {connected && (network != "48899" && network != "534351" && network != "59140" && network != "18") && (
-                        <p>
-                            ❌ Please switch to{" "}
-                            <Link
-                                href="https://docs.zircuit.com/build-on-zircuit/quick-startZircuit"
-                                color="pink.400"
-                                isExternal>
-                                <b>Ziruit Testnet</b>{" "}
-                            </Link>or{" "}
-                            <Link
-                                href="https://docs.scroll.io/en/user-guide/faucet/"
-                                color="pink.400"
-                                isExternal>
-                                <b>Scroll Sepolia</b>{" "}
-                            </Link>or{" "}
-                            <Link
-                                href="https://docs.linea.build/use-mainnet/set-up-your-wallet"
-                                color="pink.400"
-                                isExternal>
-                                <b>Linea Goerli</b>{" "}
-                            </Link>or{" "}
-                            <Link
-                                href="https://docs.developers.thundercore.com/product-protocol/wallets"
-                                color="pink.400"
-                                isExternal>
-                                <b>Thunder Testnet</b>.
-                            </Link>
-                        </p>
-                    )}
+                    {connected &&
+                        network != "48899" &&
+                        network != "534351" &&
+                        network != "59140" &&
+                        network != "18" && (
+                            <p>
+                                ❌ Please switch to{" "}
+                                <Link
+                                    href="https://docs.zircuit.com/build-on-zircuit/quick-startZircuit"
+                                    color="pink.400"
+                                    isExternal>
+                                    <b>Ziruit Testnet</b>{" "}
+                                </Link>
+                                or{" "}
+                                <Link
+                                    href="https://docs.scroll.io/en/user-guide/faucet/"
+                                    color="pink.400"
+                                    isExternal>
+                                    <b>Scroll Sepolia</b>{" "}
+                                </Link>
+                                or{" "}
+                                <Link
+                                    href="https://docs.linea.build/use-mainnet/set-up-your-wallet"
+                                    color="pink.400"
+                                    isExternal>
+                                    <b>Linea Goerli</b>{" "}
+                                </Link>
+                                or{" "}
+                                <Link
+                                    href="https://docs.developers.thundercore.com/product-protocol/wallets"
+                                    color="pink.400"
+                                    isExternal>
+                                    <b>Thunder Testnet</b>.
+                                </Link>
+                            </p>
+                        )}
                 </div>
                 <br />
                 <br />
